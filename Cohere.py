@@ -38,7 +38,7 @@ if st.button("Generar Ideas"):
                 # Llamada a la API de Cohere
                 response = client.chat(
                     message=prompt_dinamico,
-                    model="command-r-plus"
+                    model="command-r-plus-08-2024"
                 )
 
                 st.subheader("--- Respuesta de Cohere ---")
